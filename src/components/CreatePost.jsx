@@ -44,6 +44,7 @@ function CreatePost(props) {
             name="title"
             placeholder="Title"
             value={note.title}
+            autocomplete="off"
           />
         )}
 
